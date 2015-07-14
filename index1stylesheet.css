@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+h1{
+  border: 1px solid #333;
+  /*padding: 20px;*/
+  /*<!--background: red;*/
+  /*color: black;*/
+  transition: all 2s linear;-->
+  /*<!-- can use ease, ease-in, ease-out, linear*/
+  /*search mdn-->*/
+
+}
+h1:hover {
+  /*background: blue;*/
+  /*opacity: .5;*/
+  /*padding: 20px;*/
+  box-shadow: 0px 2px 2px #777;
+}
+.intro{
+  text-align:center;}
+section{
+  padding: 10px;
+  margin: 20px;
+  border: 40px;
+}
+p{
+  text-align: center;
+
+}
+ol{
+  margin: 30px;
+}
+section.one {
+  margin-right: 200px;
+  margin-left: 200px;
+  outline-style: groove;
+  outline-width: thick;
+  outline-color: purple;
+
+}
+#info{
+  background: rgba(200,200,200, 1);
+  font-family: 'Roboto', Arial;
+}
