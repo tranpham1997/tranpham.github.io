@@ -1,6 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+#top{
+  background-image: url("campus-shot-1200.jpg");
+  margin-left: 0;
+  margin-right: 0;
+}
+#profilePic{
+  outline-style: groove;
+  outline-width: thick;
+  outline-color: purple;
+}
 h1{
-  border: 1px solid #333;
   /*padding: 20px;*/
   /*<!--background: red;*/
   /*color: black;*/
@@ -19,7 +29,6 @@ h1:hover {
   text-align:center;}
 section{
   padding: 10px;
-  margin: 20px;
   border: 40px;
 }
 p{
@@ -30,12 +39,14 @@ ol{
   margin: 30px;
 }
 section.one {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 300px;
+  margin-left: 300px;
   outline-style: groove;
   outline-width: thick;
+  width: 300px;
+  height: 400px;
   outline-color: purple;
-
+  background-color: gray;
 }
 #info{
   background: rgba(200,200,200, 1);
